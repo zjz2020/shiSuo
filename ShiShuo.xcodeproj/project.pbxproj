@@ -13,6 +13,7 @@
 		F919C1201D3802AD001E3983 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F919C11E1D3802AD001E3983 /* Main.storyboard */; };
 		F919C1221D3802AD001E3983 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F919C1211D3802AD001E3983 /* Assets.xcassets */; };
 		F919C1251D3802AD001E3983 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F919C1231D3802AD001E3983 /* LaunchScreen.storyboard */; };
+		F919C1331D381246001E3983 /* 22.png in Resources */ = {isa = PBXBuildFile; fileRef = F919C1321D381246001E3983 /* 22.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +27,7 @@
 		F919C1211D3802AD001E3983 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		F919C1241D3802AD001E3983 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		F919C1261D3802AD001E3983 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F919C1321D381246001E3983 /* 22.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 22.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -62,6 +64,11 @@
 				F919C1191D3802AD001E3983 /* AppDelegate.m */,
 				F919C11B1D3802AD001E3983 /* ViewController.h */,
 				F919C11C1D3802AD001E3983 /* ViewController.m */,
+				F919C1311D38094C001E3983 /* Third */,
+				F919C1301D380943001E3983 /* Tool */,
+				F919C12F1D380932001E3983 /* Controller */,
+				F919C12E1D38092A001E3983 /* ViewS */,
+				F919C12C1D38091A001E3983 /* Model */,
 				F919C11E1D3802AD001E3983 /* Main.storyboard */,
 				F919C1211D3802AD001E3983 /* Assets.xcassets */,
 				F919C1231D3802AD001E3983 /* LaunchScreen.storyboard */,
@@ -74,9 +81,85 @@
 		F919C1151D3802AD001E3983 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				F919C1321D381246001E3983 /* 22.png */,
 				F919C1161D3802AD001E3983 /* main.m */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		F919C12C1D38091A001E3983 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				F919C12D1D380924001E3983 /* New Group */,
+			);
+			name = Model;
+			sourceTree = "<group>";
+		};
+		F919C12D1D380924001E3983 /* New Group */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = "New Group";
+			sourceTree = "<group>";
+		};
+		F919C12E1D38092A001E3983 /* ViewS */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = ViewS;
+			sourceTree = "<group>";
+		};
+		F919C12F1D380932001E3983 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				F919C1371D381411001E3983 /* homeVC */,
+				F919C1361D381404001E3983 /* mine */,
+				F919C1351D3813CF001E3983 /* registered */,
+				F919C1341D3813B9001E3983 /* login */,
+			);
+			name = Controller;
+			sourceTree = "<group>";
+		};
+		F919C1301D380943001E3983 /* Tool */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Tool;
+			sourceTree = "<group>";
+		};
+		F919C1311D38094C001E3983 /* Third */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Third;
+			sourceTree = "<group>";
+		};
+		F919C1341D3813B9001E3983 /* login */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = login;
+			sourceTree = "<group>";
+		};
+		F919C1351D3813CF001E3983 /* registered */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = registered;
+			sourceTree = "<group>";
+		};
+		F919C1361D381404001E3983 /* mine */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = mine;
+			sourceTree = "<group>";
+		};
+		F919C1371D381411001E3983 /* homeVC */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = homeVC;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -137,6 +220,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				F919C1251D3802AD001E3983 /* LaunchScreen.storyboard in Resources */,
+				F919C1331D381246001E3983 /* 22.png in Resources */,
 				F919C1221D3802AD001E3983 /* Assets.xcassets in Resources */,
 				F919C1201D3802AD001E3983 /* Main.storyboard in Resources */,
 			);
@@ -261,6 +345,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = "Brand Assets";
 				INFOPLIST_FILE = ShiShuo/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = Cloud.ShiShuo;
@@ -272,6 +357,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = "Brand Assets";
 				INFOPLIST_FILE = ShiShuo/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = Cloud.ShiShuo;
