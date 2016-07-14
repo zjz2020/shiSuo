@@ -14,6 +14,11 @@
 		F919C1221D3802AD001E3983 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F919C1211D3802AD001E3983 /* Assets.xcassets */; };
 		F919C1251D3802AD001E3983 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F919C1231D3802AD001E3983 /* LaunchScreen.storyboard */; };
 		F919C1331D381246001E3983 /* 22.png in Resources */ = {isa = PBXBuildFile; fileRef = F919C1321D381246001E3983 /* 22.png */; };
+		F919C13B1D3815D5001E3983 /* SSLoginVC.m in Sources */ = {isa = PBXBuildFile; fileRef = F919C1391D3815D5001E3983 /* SSLoginVC.m */; };
+		F919C13C1D3815D5001E3983 /* SSLoginVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = F919C13A1D3815D5001E3983 /* SSLoginVC.xib */; };
+		F919C13F1D381807001E3983 /* 960.png in Resources */ = {isa = PBXBuildFile; fileRef = F919C13E1D381807001E3983 /* 960.png */; };
+		F919C1431D3831B2001E3983 /* SSRgisterVC.m in Sources */ = {isa = PBXBuildFile; fileRef = F919C1411D3831B2001E3983 /* SSRgisterVC.m */; };
+		F919C1441D3831B2001E3983 /* SSRgisterVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = F919C1421D3831B2001E3983 /* SSRgisterVC.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -28,6 +33,14 @@
 		F919C1241D3802AD001E3983 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		F919C1261D3802AD001E3983 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		F919C1321D381246001E3983 /* 22.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 22.png; sourceTree = "<group>"; };
+		F919C1381D3815D5001E3983 /* SSLoginVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SSLoginVC.h; sourceTree = "<group>"; };
+		F919C1391D3815D5001E3983 /* SSLoginVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SSLoginVC.m; sourceTree = "<group>"; };
+		F919C13A1D3815D5001E3983 /* SSLoginVC.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = SSLoginVC.xib; sourceTree = "<group>"; };
+		F919C13D1D381627001E3983 /* PrefixHeader.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PrefixHeader.pch; sourceTree = "<group>"; };
+		F919C13E1D381807001E3983 /* 960.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 960.png; sourceTree = "<group>"; };
+		F919C1401D3831B2001E3983 /* SSRgisterVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SSRgisterVC.h; sourceTree = "<group>"; };
+		F919C1411D3831B2001E3983 /* SSRgisterVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SSRgisterVC.m; sourceTree = "<group>"; };
+		F919C1421D3831B2001E3983 /* SSRgisterVC.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = SSRgisterVC.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -81,8 +94,10 @@
 		F919C1151D3802AD001E3983 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				F919C13E1D381807001E3983 /* 960.png */,
 				F919C1321D381246001E3983 /* 22.png */,
 				F919C1161D3802AD001E3983 /* main.m */,
+				F919C13D1D381627001E3983 /* PrefixHeader.pch */,
 			);
 			name = "Supporting Files";
 			sourceTree = "<group>";
@@ -137,6 +152,9 @@
 		F919C1341D3813B9001E3983 /* login */ = {
 			isa = PBXGroup;
 			children = (
+				F919C1381D3815D5001E3983 /* SSLoginVC.h */,
+				F919C1391D3815D5001E3983 /* SSLoginVC.m */,
+				F919C13A1D3815D5001E3983 /* SSLoginVC.xib */,
 			);
 			name = login;
 			sourceTree = "<group>";
@@ -144,6 +162,9 @@
 		F919C1351D3813CF001E3983 /* registered */ = {
 			isa = PBXGroup;
 			children = (
+				F919C1401D3831B2001E3983 /* SSRgisterVC.h */,
+				F919C1411D3831B2001E3983 /* SSRgisterVC.m */,
+				F919C1421D3831B2001E3983 /* SSRgisterVC.xib */,
 			);
 			name = registered;
 			sourceTree = "<group>";
@@ -219,8 +240,11 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F919C13C1D3815D5001E3983 /* SSLoginVC.xib in Resources */,
+				F919C1441D3831B2001E3983 /* SSRgisterVC.xib in Resources */,
 				F919C1251D3802AD001E3983 /* LaunchScreen.storyboard in Resources */,
 				F919C1331D381246001E3983 /* 22.png in Resources */,
+				F919C13F1D381807001E3983 /* 960.png in Resources */,
 				F919C1221D3802AD001E3983 /* Assets.xcassets in Resources */,
 				F919C1201D3802AD001E3983 /* Main.storyboard in Resources */,
 			);
@@ -235,6 +259,8 @@
 			files = (
 				F919C11D1D3802AD001E3983 /* ViewController.m in Sources */,
 				F919C11A1D3802AD001E3983 /* AppDelegate.m in Sources */,
+				F919C13B1D3815D5001E3983 /* SSLoginVC.m in Sources */,
+				F919C1431D3831B2001E3983 /* SSRgisterVC.m in Sources */,
 				F919C1171D3802AD001E3983 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -346,6 +372,8 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = "Brand Assets";
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "$<SRCROOT>/ShiShuo/PrefixHeader.pch";
 				INFOPLIST_FILE = ShiShuo/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = Cloud.ShiShuo;
@@ -358,6 +386,8 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = "Brand Assets";
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "$<SRCROOT>/ShiShuo/PrefixHeader.pch";
 				INFOPLIST_FILE = ShiShuo/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = Cloud.ShiShuo;
