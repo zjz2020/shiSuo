@@ -10,10 +10,10 @@
 #import "SSRgisterVC.h"
 #import "ForgetPassWordVC.h"
 #import "SSBarVC.h"
+#import "AppDelegate.h"
 @interface SSLoginVC ()<UITextFieldDelegate>
 @property (weak, nonatomic) IBOutlet UITextField *accountTextF;
 @property (weak, nonatomic) IBOutlet UITextField *passWordTextF;
-
 @end
 
 @implementation SSLoginVC
@@ -30,15 +30,17 @@
     NSString *passWord = [[NSUserDefaults standardUserDefaults] objectForKey:@"passWord"];
     self.accountTextF.text = account;
     self.passWordTextF.text = passWord;
-    if (account && passWord) {
         SSBarVC *barVC = [[SSBarVC alloc] init];
+//        AppDelegate *delegate = (AppDelegate *)[UIApplication sharedApplication].delegate;
+//    [delegate.window.rootViewController presentViewController:barVC animated:NO completion:nil];
         [self presentViewController:barVC animated:YES completion:nil];
-    }
+//      [self.view.window.rootViewController presentViewController:barVC animated:YES completion:nil];
 }
 //登录
 - (IBAction)login:(UIButton *)sender {
     SSBarVC *barVC = [[SSBarVC alloc] init];
     [self presentViewController:barVC animated:YES completion:nil];
+//    [self.view.window.rootViewController presentViewController:barVC animated:YES completion:nil];
 }
 //注册
 - (IBAction)registerAccount:(UIButton *)sender {

@@ -9,12 +9,31 @@
 #import "SSBarVC.h"
 #import "MineVC.h"
 #import "ActivityViewController.h"
+
 @interface SSBarVC ()
 
 @end
 
 @implementation SSBarVC
+-(void)viewWillAppear:(BOOL)animated
+{
+    [self.selectedViewController beginAppearanceTransition: YES animated: animated];
+}
 
+-(void) viewDidAppear:(BOOL)animated
+{
+    [self.selectedViewController endAppearanceTransition];
+}
+
+-(void) viewWillDisappear:(BOOL)animated
+{
+    [self.selectedViewController beginAppearanceTransition: NO animated: animated];
+}
+
+-(void) viewDidDisappear:(BOOL)animated
+{
+    [self.selectedViewController endAppearanceTransition];
+}
 - (void)viewDidLoad {
     [super viewDidLoad];
     [self creatTabBar];
@@ -26,7 +45,7 @@
     ActivityViewController *attendC = [[ActivityViewController alloc] init];
     UINavigationController *navC2 = [[UINavigationController alloc] initWithRootViewController:attendC];
     self.viewControllers = @[navC1,navC2];
-    homeC.title = @"我的";
+    homeC.title = @"大厅";
     attendC.title = @"活动";
     UIImage *image1 = [UIImage imageWithCGImage:[UIImage imageNamed:@""].CGImage scale:5.0 orientation:UIImageOrientationUp];
     UIImage *image11 = [UIImage imageWithCGImage:[UIImage imageNamed:@""].CGImage scale:5.0 orientation:UIImageOrientationUp];

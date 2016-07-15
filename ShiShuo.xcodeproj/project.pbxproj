@@ -8,6 +8,11 @@
 
 /* Begin PBXBuildFile section */
 		F914476C1D3956BE00F80EA7 /* UIView+Extension.m in Sources */ = {isa = PBXBuildFile; fileRef = F914476B1D3956BE00F80EA7 /* UIView+Extension.m */; };
+		F91447701D395EC000F80EA7 /* SSPersonModel.m in Sources */ = {isa = PBXBuildFile; fileRef = F914476F1D395EC000F80EA7 /* SSPersonModel.m */; };
+		F91447741D39635400F80EA7 /* SSsubViewC.m in Sources */ = {isa = PBXBuildFile; fileRef = F91447721D39635400F80EA7 /* SSsubViewC.m */; };
+		F91447751D39635400F80EA7 /* SSsubViewC.xib in Resources */ = {isa = PBXBuildFile; fileRef = F91447731D39635400F80EA7 /* SSsubViewC.xib */; };
+		F91447791D399B4600F80EA7 /* OpenCell.m in Sources */ = {isa = PBXBuildFile; fileRef = F91447771D399B4600F80EA7 /* OpenCell.m */; };
+		F914477A1D399B4600F80EA7 /* OpenCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = F91447781D399B4600F80EA7 /* OpenCell.xib */; };
 		F919C1171D3802AD001E3983 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = F919C1161D3802AD001E3983 /* main.m */; };
 		F919C11A1D3802AD001E3983 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = F919C1191D3802AD001E3983 /* AppDelegate.m */; };
 		F919C11D1D3802AD001E3983 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F919C11C1D3802AD001E3983 /* ViewController.m */; };
@@ -43,6 +48,14 @@
 /* Begin PBXFileReference section */
 		F914476A1D3956BE00F80EA7 /* UIView+Extension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+Extension.h"; sourceTree = "<group>"; };
 		F914476B1D3956BE00F80EA7 /* UIView+Extension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+Extension.m"; sourceTree = "<group>"; };
+		F914476E1D395EC000F80EA7 /* SSPersonModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SSPersonModel.h; sourceTree = "<group>"; };
+		F914476F1D395EC000F80EA7 /* SSPersonModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SSPersonModel.m; sourceTree = "<group>"; };
+		F91447711D39635400F80EA7 /* SSsubViewC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SSsubViewC.h; sourceTree = "<group>"; };
+		F91447721D39635400F80EA7 /* SSsubViewC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SSsubViewC.m; sourceTree = "<group>"; };
+		F91447731D39635400F80EA7 /* SSsubViewC.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = SSsubViewC.xib; sourceTree = "<group>"; };
+		F91447761D399B4600F80EA7 /* OpenCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OpenCell.h; sourceTree = "<group>"; };
+		F91447771D399B4600F80EA7 /* OpenCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OpenCell.m; sourceTree = "<group>"; };
+		F91447781D399B4600F80EA7 /* OpenCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = OpenCell.xib; sourceTree = "<group>"; };
 		F919C1121D3802AD001E3983 /* ShiShuo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ShiShuo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		F919C1161D3802AD001E3983 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		F919C1181D3802AD001E3983 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -170,23 +183,20 @@
 		F919C12C1D38091A001E3983 /* Model */ = {
 			isa = PBXGroup;
 			children = (
-				F919C12D1D380924001E3983 /* New Group */,
 				F919C15C1D385088001E3983 /* SSModel.h */,
 				F919C15D1D385088001E3983 /* SSModel.m */,
+				F914476E1D395EC000F80EA7 /* SSPersonModel.h */,
+				F914476F1D395EC000F80EA7 /* SSPersonModel.m */,
 			);
 			name = Model;
-			sourceTree = "<group>";
-		};
-		F919C12D1D380924001E3983 /* New Group */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			name = "New Group";
 			sourceTree = "<group>";
 		};
 		F919C12E1D38092A001E3983 /* ViewS */ = {
 			isa = PBXGroup;
 			children = (
+				F91447761D399B4600F80EA7 /* OpenCell.h */,
+				F91447771D399B4600F80EA7 /* OpenCell.m */,
+				F91447781D399B4600F80EA7 /* OpenCell.xib */,
 			);
 			name = ViewS;
 			sourceTree = "<group>";
@@ -256,6 +266,9 @@
 		F919C1371D381411001E3983 /* homeVC */ = {
 			isa = PBXGroup;
 			children = (
+				F91447711D39635400F80EA7 /* SSsubViewC.h */,
+				F91447721D39635400F80EA7 /* SSsubViewC.m */,
+				F91447731D39635400F80EA7 /* SSsubViewC.xib */,
 			);
 			name = homeVC;
 			sourceTree = "<group>";
@@ -346,8 +359,10 @@
 				F919C15B1D384109001E3983 /* 0.png in Resources */,
 				F919C1491D383492001E3983 /* ForgetPassWordVC.xib in Resources */,
 				F919C13C1D3815D5001E3983 /* SSLoginVC.xib in Resources */,
+				F914477A1D399B4600F80EA7 /* OpenCell.xib in Resources */,
 				F919C1441D3831B2001E3983 /* SSRgisterVC.xib in Resources */,
 				F919C1251D3802AD001E3983 /* LaunchScreen.storyboard in Resources */,
+				F91447751D39635400F80EA7 /* SSsubViewC.xib in Resources */,
 				F919C1331D381246001E3983 /* 22.png in Resources */,
 				F919C13F1D381807001E3983 /* 960.png in Resources */,
 				F919C1571D383C56001E3983 /* GuideVC.xib in Resources */,
@@ -371,9 +386,11 @@
 				F919C1711D385308001E3983 /* NSString+Base64.m in Sources */,
 				F919C13B1D3815D5001E3983 /* SSLoginVC.m in Sources */,
 				F919C1721D385308001E3983 /* NSData+CommonCrypto.m in Sources */,
+				F91447741D39635400F80EA7 /* SSsubViewC.m in Sources */,
 				F919C1431D3831B2001E3983 /* SSRgisterVC.m in Sources */,
 				F919C1751D385341001E3983 /* SSHelpTool.m in Sources */,
 				F919C1481D383492001E3983 /* ForgetPassWordVC.m in Sources */,
+				F91447701D395EC000F80EA7 /* SSPersonModel.m in Sources */,
 				F914476C1D3956BE00F80EA7 /* UIView+Extension.m in Sources */,
 				F919C1641D385163001E3983 /* NetWorkManage.m in Sources */,
 				F919C1781D3857D0001E3983 /* YRJSONAdapter.m in Sources */,
@@ -384,6 +401,7 @@
 				F919C1631D385163001E3983 /* Reachability.m in Sources */,
 				F919C16F1D385308001E3983 /* AESCrypt.m in Sources */,
 				F919C14F1D383AFF001E3983 /* ActivityViewController.m in Sources */,
+				F91447791D399B4600F80EA7 /* OpenCell.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
