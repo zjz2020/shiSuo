@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		F914476C1D3956BE00F80EA7 /* UIView+Extension.m in Sources */ = {isa = PBXBuildFile; fileRef = F914476B1D3956BE00F80EA7 /* UIView+Extension.m */; };
 		F919C1171D3802AD001E3983 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = F919C1161D3802AD001E3983 /* main.m */; };
 		F919C11A1D3802AD001E3983 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = F919C1191D3802AD001E3983 /* AppDelegate.m */; };
 		F919C11D1D3802AD001E3983 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F919C11C1D3802AD001E3983 /* ViewController.m */; };
@@ -19,9 +20,29 @@
 		F919C13F1D381807001E3983 /* 960.png in Resources */ = {isa = PBXBuildFile; fileRef = F919C13E1D381807001E3983 /* 960.png */; };
 		F919C1431D3831B2001E3983 /* SSRgisterVC.m in Sources */ = {isa = PBXBuildFile; fileRef = F919C1411D3831B2001E3983 /* SSRgisterVC.m */; };
 		F919C1441D3831B2001E3983 /* SSRgisterVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = F919C1421D3831B2001E3983 /* SSRgisterVC.xib */; };
+		F919C1481D383492001E3983 /* ForgetPassWordVC.m in Sources */ = {isa = PBXBuildFile; fileRef = F919C1461D383492001E3983 /* ForgetPassWordVC.m */; };
+		F919C1491D383492001E3983 /* ForgetPassWordVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = F919C1471D383492001E3983 /* ForgetPassWordVC.xib */; };
+		F919C14C1D383A9E001E3983 /* MineVC.m in Sources */ = {isa = PBXBuildFile; fileRef = F919C14B1D383A9E001E3983 /* MineVC.m */; };
+		F919C14F1D383AFF001E3983 /* ActivityViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F919C14E1D383AFF001E3983 /* ActivityViewController.m */; };
+		F919C1521D383B93001E3983 /* SSBarVC.m in Sources */ = {isa = PBXBuildFile; fileRef = F919C1511D383B93001E3983 /* SSBarVC.m */; };
+		F919C1561D383C56001E3983 /* GuideVC.m in Sources */ = {isa = PBXBuildFile; fileRef = F919C1541D383C56001E3983 /* GuideVC.m */; };
+		F919C1571D383C56001E3983 /* GuideVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = F919C1551D383C56001E3983 /* GuideVC.xib */; };
+		F919C1591D3840FF001E3983 /* 1.png in Resources */ = {isa = PBXBuildFile; fileRef = F919C1581D3840FF001E3983 /* 1.png */; };
+		F919C15B1D384109001E3983 /* 0.png in Resources */ = {isa = PBXBuildFile; fileRef = F919C15A1D384109001E3983 /* 0.png */; };
+		F919C15E1D385088001E3983 /* SSModel.m in Sources */ = {isa = PBXBuildFile; fileRef = F919C15D1D385088001E3983 /* SSModel.m */; };
+		F919C1631D385163001E3983 /* Reachability.m in Sources */ = {isa = PBXBuildFile; fileRef = F919C1601D385163001E3983 /* Reachability.m */; };
+		F919C1641D385163001E3983 /* NetWorkManage.m in Sources */ = {isa = PBXBuildFile; fileRef = F919C1621D385163001E3983 /* NetWorkManage.m */; };
+		F919C16F1D385308001E3983 /* AESCrypt.m in Sources */ = {isa = PBXBuildFile; fileRef = F919C1681D385308001E3983 /* AESCrypt.m */; };
+		F919C1701D385308001E3983 /* NSData+Base64.m in Sources */ = {isa = PBXBuildFile; fileRef = F919C16A1D385308001E3983 /* NSData+Base64.m */; };
+		F919C1711D385308001E3983 /* NSString+Base64.m in Sources */ = {isa = PBXBuildFile; fileRef = F919C16C1D385308001E3983 /* NSString+Base64.m */; };
+		F919C1721D385308001E3983 /* NSData+CommonCrypto.m in Sources */ = {isa = PBXBuildFile; fileRef = F919C16E1D385308001E3983 /* NSData+CommonCrypto.m */; };
+		F919C1751D385341001E3983 /* SSHelpTool.m in Sources */ = {isa = PBXBuildFile; fileRef = F919C1741D385341001E3983 /* SSHelpTool.m */; };
+		F919C1781D3857D0001E3983 /* YRJSONAdapter.m in Sources */ = {isa = PBXBuildFile; fileRef = F919C1771D3857D0001E3983 /* YRJSONAdapter.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		F914476A1D3956BE00F80EA7 /* UIView+Extension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+Extension.h"; sourceTree = "<group>"; };
+		F914476B1D3956BE00F80EA7 /* UIView+Extension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+Extension.m"; sourceTree = "<group>"; };
 		F919C1121D3802AD001E3983 /* ShiShuo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ShiShuo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		F919C1161D3802AD001E3983 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		F919C1181D3802AD001E3983 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -41,6 +62,38 @@
 		F919C1401D3831B2001E3983 /* SSRgisterVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SSRgisterVC.h; sourceTree = "<group>"; };
 		F919C1411D3831B2001E3983 /* SSRgisterVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SSRgisterVC.m; sourceTree = "<group>"; };
 		F919C1421D3831B2001E3983 /* SSRgisterVC.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = SSRgisterVC.xib; sourceTree = "<group>"; };
+		F919C1451D383492001E3983 /* ForgetPassWordVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ForgetPassWordVC.h; sourceTree = "<group>"; };
+		F919C1461D383492001E3983 /* ForgetPassWordVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ForgetPassWordVC.m; sourceTree = "<group>"; };
+		F919C1471D383492001E3983 /* ForgetPassWordVC.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ForgetPassWordVC.xib; sourceTree = "<group>"; };
+		F919C14A1D383A9E001E3983 /* MineVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MineVC.h; sourceTree = "<group>"; };
+		F919C14B1D383A9E001E3983 /* MineVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MineVC.m; sourceTree = "<group>"; };
+		F919C14D1D383AFF001E3983 /* ActivityViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ActivityViewController.h; sourceTree = "<group>"; };
+		F919C14E1D383AFF001E3983 /* ActivityViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ActivityViewController.m; sourceTree = "<group>"; };
+		F919C1501D383B93001E3983 /* SSBarVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SSBarVC.h; sourceTree = "<group>"; };
+		F919C1511D383B93001E3983 /* SSBarVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SSBarVC.m; sourceTree = "<group>"; };
+		F919C1531D383C56001E3983 /* GuideVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GuideVC.h; sourceTree = "<group>"; };
+		F919C1541D383C56001E3983 /* GuideVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GuideVC.m; sourceTree = "<group>"; };
+		F919C1551D383C56001E3983 /* GuideVC.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = GuideVC.xib; sourceTree = "<group>"; };
+		F919C1581D3840FF001E3983 /* 1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 1.png; sourceTree = "<group>"; };
+		F919C15A1D384109001E3983 /* 0.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 0.png; sourceTree = "<group>"; };
+		F919C15C1D385088001E3983 /* SSModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SSModel.h; sourceTree = "<group>"; };
+		F919C15D1D385088001E3983 /* SSModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SSModel.m; sourceTree = "<group>"; };
+		F919C15F1D385163001E3983 /* Reachability.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Reachability.h; sourceTree = "<group>"; };
+		F919C1601D385163001E3983 /* Reachability.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Reachability.m; sourceTree = "<group>"; };
+		F919C1611D385163001E3983 /* NetWorkManage.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NetWorkManage.h; sourceTree = "<group>"; };
+		F919C1621D385163001E3983 /* NetWorkManage.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NetWorkManage.m; sourceTree = "<group>"; };
+		F919C1671D385308001E3983 /* AESCrypt.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AESCrypt.h; sourceTree = "<group>"; };
+		F919C1681D385308001E3983 /* AESCrypt.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AESCrypt.m; sourceTree = "<group>"; };
+		F919C1691D385308001E3983 /* NSData+Base64.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSData+Base64.h"; sourceTree = "<group>"; };
+		F919C16A1D385308001E3983 /* NSData+Base64.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSData+Base64.m"; sourceTree = "<group>"; };
+		F919C16B1D385308001E3983 /* NSString+Base64.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+Base64.h"; sourceTree = "<group>"; };
+		F919C16C1D385308001E3983 /* NSString+Base64.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+Base64.m"; sourceTree = "<group>"; };
+		F919C16D1D385308001E3983 /* NSData+CommonCrypto.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSData+CommonCrypto.h"; sourceTree = "<group>"; };
+		F919C16E1D385308001E3983 /* NSData+CommonCrypto.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSData+CommonCrypto.m"; sourceTree = "<group>"; };
+		F919C1731D385341001E3983 /* SSHelpTool.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SSHelpTool.h; sourceTree = "<group>"; };
+		F919C1741D385341001E3983 /* SSHelpTool.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SSHelpTool.m; sourceTree = "<group>"; };
+		F919C1761D3857D0001E3983 /* YRJSONAdapter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YRJSONAdapter.h; sourceTree = "<group>"; };
+		F919C1771D3857D0001E3983 /* YRJSONAdapter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YRJSONAdapter.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +107,15 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		F914476D1D3956C700F80EA7 /* Extiontion */ = {
+			isa = PBXGroup;
+			children = (
+				F914476A1D3956BE00F80EA7 /* UIView+Extension.h */,
+				F914476B1D3956BE00F80EA7 /* UIView+Extension.m */,
+			);
+			name = Extiontion;
+			sourceTree = "<group>";
+		};
 		F919C1091D3802AD001E3983 = {
 			isa = PBXGroup;
 			children = (
@@ -77,6 +139,7 @@
 				F919C1191D3802AD001E3983 /* AppDelegate.m */,
 				F919C11B1D3802AD001E3983 /* ViewController.h */,
 				F919C11C1D3802AD001E3983 /* ViewController.m */,
+				F914476D1D3956C700F80EA7 /* Extiontion */,
 				F919C1311D38094C001E3983 /* Third */,
 				F919C1301D380943001E3983 /* Tool */,
 				F919C12F1D380932001E3983 /* Controller */,
@@ -94,6 +157,8 @@
 		F919C1151D3802AD001E3983 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				F919C15A1D384109001E3983 /* 0.png */,
+				F919C1581D3840FF001E3983 /* 1.png */,
 				F919C13E1D381807001E3983 /* 960.png */,
 				F919C1321D381246001E3983 /* 22.png */,
 				F919C1161D3802AD001E3983 /* main.m */,
@@ -106,6 +171,8 @@
 			isa = PBXGroup;
 			children = (
 				F919C12D1D380924001E3983 /* New Group */,
+				F919C15C1D385088001E3983 /* SSModel.h */,
+				F919C15D1D385088001E3983 /* SSModel.m */,
 			);
 			name = Model;
 			sourceTree = "<group>";
@@ -129,7 +196,6 @@
 			children = (
 				F919C1371D381411001E3983 /* homeVC */,
 				F919C1361D381404001E3983 /* mine */,
-				F919C1351D3813CF001E3983 /* registered */,
 				F919C1341D3813B9001E3983 /* login */,
 			);
 			name = Controller;
@@ -138,6 +204,8 @@
 		F919C1301D380943001E3983 /* Tool */ = {
 			isa = PBXGroup;
 			children = (
+				F919C1731D385341001E3983 /* SSHelpTool.h */,
+				F919C1741D385341001E3983 /* SSHelpTool.m */,
 			);
 			name = Tool;
 			sourceTree = "<group>";
@@ -145,6 +213,10 @@
 		F919C1311D38094C001E3983 /* Third */ = {
 			isa = PBXGroup;
 			children = (
+				F919C1761D3857D0001E3983 /* YRJSONAdapter.h */,
+				F919C1771D3857D0001E3983 /* YRJSONAdapter.m */,
+				F919C1661D385265001E3983 /* AES加密 */,
+				F919C1651D385169001E3983 /* NetWorkManage */,
 			);
 			name = Third;
 			sourceTree = "<group>";
@@ -155,23 +227,28 @@
 				F919C1381D3815D5001E3983 /* SSLoginVC.h */,
 				F919C1391D3815D5001E3983 /* SSLoginVC.m */,
 				F919C13A1D3815D5001E3983 /* SSLoginVC.xib */,
-			);
-			name = login;
-			sourceTree = "<group>";
-		};
-		F919C1351D3813CF001E3983 /* registered */ = {
-			isa = PBXGroup;
-			children = (
 				F919C1401D3831B2001E3983 /* SSRgisterVC.h */,
 				F919C1411D3831B2001E3983 /* SSRgisterVC.m */,
 				F919C1421D3831B2001E3983 /* SSRgisterVC.xib */,
+				F919C1451D383492001E3983 /* ForgetPassWordVC.h */,
+				F919C1461D383492001E3983 /* ForgetPassWordVC.m */,
+				F919C1471D383492001E3983 /* ForgetPassWordVC.xib */,
+				F919C1531D383C56001E3983 /* GuideVC.h */,
+				F919C1541D383C56001E3983 /* GuideVC.m */,
+				F919C1551D383C56001E3983 /* GuideVC.xib */,
 			);
-			name = registered;
+			name = login;
 			sourceTree = "<group>";
 		};
 		F919C1361D381404001E3983 /* mine */ = {
 			isa = PBXGroup;
 			children = (
+				F919C1501D383B93001E3983 /* SSBarVC.h */,
+				F919C1511D383B93001E3983 /* SSBarVC.m */,
+				F919C14A1D383A9E001E3983 /* MineVC.h */,
+				F919C14B1D383A9E001E3983 /* MineVC.m */,
+				F919C14D1D383AFF001E3983 /* ActivityViewController.h */,
+				F919C14E1D383AFF001E3983 /* ActivityViewController.m */,
 			);
 			name = mine;
 			sourceTree = "<group>";
@@ -181,6 +258,32 @@
 			children = (
 			);
 			name = homeVC;
+			sourceTree = "<group>";
+		};
+		F919C1651D385169001E3983 /* NetWorkManage */ = {
+			isa = PBXGroup;
+			children = (
+				F919C15F1D385163001E3983 /* Reachability.h */,
+				F919C1601D385163001E3983 /* Reachability.m */,
+				F919C1611D385163001E3983 /* NetWorkManage.h */,
+				F919C1621D385163001E3983 /* NetWorkManage.m */,
+			);
+			name = NetWorkManage;
+			sourceTree = "<group>";
+		};
+		F919C1661D385265001E3983 /* AES加密 */ = {
+			isa = PBXGroup;
+			children = (
+				F919C1671D385308001E3983 /* AESCrypt.h */,
+				F919C1681D385308001E3983 /* AESCrypt.m */,
+				F919C1691D385308001E3983 /* NSData+Base64.h */,
+				F919C16A1D385308001E3983 /* NSData+Base64.m */,
+				F919C16B1D385308001E3983 /* NSString+Base64.h */,
+				F919C16C1D385308001E3983 /* NSString+Base64.m */,
+				F919C16D1D385308001E3983 /* NSData+CommonCrypto.h */,
+				F919C16E1D385308001E3983 /* NSData+CommonCrypto.m */,
+			);
+			name = "AES加密";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -240,13 +343,17 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F919C15B1D384109001E3983 /* 0.png in Resources */,
+				F919C1491D383492001E3983 /* ForgetPassWordVC.xib in Resources */,
 				F919C13C1D3815D5001E3983 /* SSLoginVC.xib in Resources */,
 				F919C1441D3831B2001E3983 /* SSRgisterVC.xib in Resources */,
 				F919C1251D3802AD001E3983 /* LaunchScreen.storyboard in Resources */,
 				F919C1331D381246001E3983 /* 22.png in Resources */,
 				F919C13F1D381807001E3983 /* 960.png in Resources */,
+				F919C1571D383C56001E3983 /* GuideVC.xib in Resources */,
 				F919C1221D3802AD001E3983 /* Assets.xcassets in Resources */,
 				F919C1201D3802AD001E3983 /* Main.storyboard in Resources */,
+				F919C1591D3840FF001E3983 /* 1.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -258,10 +365,25 @@
 			buildActionMask = 2147483647;
 			files = (
 				F919C11D1D3802AD001E3983 /* ViewController.m in Sources */,
+				F919C1561D383C56001E3983 /* GuideVC.m in Sources */,
+				F919C1701D385308001E3983 /* NSData+Base64.m in Sources */,
 				F919C11A1D3802AD001E3983 /* AppDelegate.m in Sources */,
+				F919C1711D385308001E3983 /* NSString+Base64.m in Sources */,
 				F919C13B1D3815D5001E3983 /* SSLoginVC.m in Sources */,
+				F919C1721D385308001E3983 /* NSData+CommonCrypto.m in Sources */,
 				F919C1431D3831B2001E3983 /* SSRgisterVC.m in Sources */,
+				F919C1751D385341001E3983 /* SSHelpTool.m in Sources */,
+				F919C1481D383492001E3983 /* ForgetPassWordVC.m in Sources */,
+				F914476C1D3956BE00F80EA7 /* UIView+Extension.m in Sources */,
+				F919C1641D385163001E3983 /* NetWorkManage.m in Sources */,
+				F919C1781D3857D0001E3983 /* YRJSONAdapter.m in Sources */,
+				F919C14C1D383A9E001E3983 /* MineVC.m in Sources */,
+				F919C1521D383B93001E3983 /* SSBarVC.m in Sources */,
 				F919C1171D3802AD001E3983 /* main.m in Sources */,
+				F919C15E1D385088001E3983 /* SSModel.m in Sources */,
+				F919C1631D385163001E3983 /* Reachability.m in Sources */,
+				F919C16F1D385308001E3983 /* AESCrypt.m in Sources */,
+				F919C14F1D383AFF001E3983 /* ActivityViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -373,8 +495,9 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = "Brand Assets";
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "$<SRCROOT>/ShiShuo/PrefixHeader.pch";
+				GCC_PREFIX_HEADER = "$(SRCROOT)/ShiShuo/PrefixHeader.pch";
 				INFOPLIST_FILE = ShiShuo/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = Cloud.ShiShuo;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -387,8 +510,9 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = "Brand Assets";
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "$<SRCROOT>/ShiShuo/PrefixHeader.pch";
+				GCC_PREFIX_HEADER = "$(SRCROOT)/ShiShuo/PrefixHeader.pch";
 				INFOPLIST_FILE = ShiShuo/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = Cloud.ShiShuo;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -414,6 +538,7 @@
 				F919C12B1D3802AD001E3983 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

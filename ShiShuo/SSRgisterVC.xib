@@ -1,12 +1,14 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="9532" systemVersion="15C50" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES">
     <dependencies>
-        <deployment identifier="iOS"/>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="9530"/>
     </dependencies>
     <objects>
         <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="SSRgisterVC">
             <connections>
+                <outlet property="passWordTextF" destination="EFO-Qt-iIq" id="gLz-zZ-cPn"/>
+                <outlet property="phoneTextF" destination="By0-pF-LbW" id="xbm-ZX-DfW"/>
+                <outlet property="rPassWordTextF" destination="PEx-9x-nZe" id="VB7-UZ-5eY"/>
                 <outlet property="view" destination="i5M-Pr-FkT" id="sfx-zR-JGt"/>
             </connections>
         </placeholder>
@@ -18,8 +20,50 @@
                 <imageView userInteractionEnabled="NO" alpha="0.29999999999999999" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="960.png" translatesAutoresizingMaskIntoConstraints="NO" id="zNj-J7-RXP">
                     <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                 </imageView>
-                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="手机号:" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="YZl-SN-6Hl">
+                <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="请输入你的手机号" textAlignment="center" minimumFontSize="17" clearButtonMode="whileEditing" translatesAutoresizingMaskIntoConstraints="NO" id="By0-pF-LbW">
+                    <rect key="frame" x="140" y="80" width="215" height="30"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="30" id="xId-8j-HDM"/>
+                    </constraints>
+                    <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                    <textInputTraits key="textInputTraits"/>
+                </textField>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="请输入密码:" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="1GN-ME-cW2">
+                    <rect key="frame" x="20" y="140" width="120" height="30"/>
+                    <color key="backgroundColor" red="0.50196081400000003" green="1" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                    <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                    <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="请再次确认:" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="lfh-6W-gc8">
                     <rect key="frame" x="20" y="200" width="120" height="30"/>
+                    <color key="backgroundColor" red="0.50196081400000003" green="1" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                    <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                    <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="请输入密码" textAlignment="center" minimumFontSize="17" clearButtonMode="whileEditing" translatesAutoresizingMaskIntoConstraints="NO" id="EFO-Qt-iIq">
+                    <rect key="frame" x="140" y="140" width="215" height="30"/>
+                    <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                    <textInputTraits key="textInputTraits"/>
+                </textField>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="9qK-Wv-igG">
+                    <rect key="frame" x="40" y="290" width="295" height="34"/>
+                    <color key="backgroundColor" red="0.0" green="0.0" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                    <state key="normal" title="注册">
+                        <color key="titleColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
+                    </state>
+                    <connections>
+                        <action selector="registerAccount:" destination="-1" eventType="touchUpInside" id="b00-3Z-93U"/>
+                    </connections>
+                </button>
+                <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="请输入确认密码" textAlignment="center" minimumFontSize="17" clearButtonMode="whileEditing" translatesAutoresizingMaskIntoConstraints="NO" id="PEx-9x-nZe">
+                    <rect key="frame" x="140" y="200" width="215" height="30"/>
+                    <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                    <textInputTraits key="textInputTraits"/>
+                </textField>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="手机号:" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="YZl-SN-6Hl">
+                    <rect key="frame" x="20" y="80" width="120" height="30"/>
                     <color key="backgroundColor" red="0.50196081400000003" green="1" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                     <constraints>
                         <constraint firstAttribute="width" constant="120" id="6RB-hm-uGT"/>
@@ -29,45 +73,6 @@
                     <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
                     <nil key="highlightedColor"/>
                 </label>
-                <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="By0-pF-LbW">
-                    <rect key="frame" x="140" y="200" width="215" height="30"/>
-                    <constraints>
-                        <constraint firstAttribute="height" constant="30" id="xId-8j-HDM"/>
-                    </constraints>
-                    <fontDescription key="fontDescription" type="system" pointSize="14"/>
-                    <textInputTraits key="textInputTraits"/>
-                </textField>
-                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="请输入密码:" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="1GN-ME-cW2">
-                    <rect key="frame" x="20" y="260" width="120" height="30"/>
-                    <color key="backgroundColor" red="0.50196081400000003" green="1" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
-                    <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                    <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
-                    <nil key="highlightedColor"/>
-                </label>
-                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="请再次确认:" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="lfh-6W-gc8">
-                    <rect key="frame" x="20" y="320" width="120" height="30"/>
-                    <color key="backgroundColor" red="0.50196081400000003" green="1" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
-                    <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                    <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
-                    <nil key="highlightedColor"/>
-                </label>
-                <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="EFO-Qt-iIq">
-                    <rect key="frame" x="140" y="260" width="215" height="30"/>
-                    <fontDescription key="fontDescription" type="system" pointSize="14"/>
-                    <textInputTraits key="textInputTraits"/>
-                </textField>
-                <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="PEx-9x-nZe">
-                    <rect key="frame" x="140" y="320" width="215" height="30"/>
-                    <fontDescription key="fontDescription" type="system" pointSize="14"/>
-                    <textInputTraits key="textInputTraits"/>
-                </textField>
-                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="9qK-Wv-igG">
-                    <rect key="frame" x="40" y="390" width="295" height="34"/>
-                    <color key="backgroundColor" red="0.0" green="0.0" blue="1" alpha="1" colorSpace="calibratedRGB"/>
-                    <state key="normal" title="注册">
-                        <color key="titleColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
-                    </state>
-                </button>
             </subviews>
             <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
             <constraints>
@@ -77,12 +82,12 @@
                 <constraint firstItem="9qK-Wv-igG" firstAttribute="leading" secondItem="i5M-Pr-FkT" secondAttribute="leading" constant="40" id="79l-ca-YhZ"/>
                 <constraint firstItem="lfh-6W-gc8" firstAttribute="centerX" secondItem="YZl-SN-6Hl" secondAttribute="centerX" id="C9Z-d6-RrE"/>
                 <constraint firstItem="PEx-9x-nZe" firstAttribute="centerX" secondItem="By0-pF-LbW" secondAttribute="centerX" id="Dsp-bL-vMu"/>
-                <constraint firstItem="9qK-Wv-igG" firstAttribute="top" secondItem="PEx-9x-nZe" secondAttribute="bottom" constant="40" id="FEi-4c-Qd3"/>
+                <constraint firstItem="9qK-Wv-igG" firstAttribute="top" secondItem="PEx-9x-nZe" secondAttribute="bottom" constant="60" id="FEi-4c-Qd3"/>
                 <constraint firstItem="1GN-ME-cW2" firstAttribute="top" secondItem="YZl-SN-6Hl" secondAttribute="bottom" constant="30" id="GHK-JX-RTc"/>
                 <constraint firstItem="zNj-J7-RXP" firstAttribute="leading" secondItem="i5M-Pr-FkT" secondAttribute="leading" id="I0r-Nl-DP1"/>
                 <constraint firstItem="YZl-SN-6Hl" firstAttribute="leading" secondItem="i5M-Pr-FkT" secondAttribute="leading" constant="20" id="I7C-Hx-wS8"/>
                 <constraint firstItem="EFO-Qt-iIq" firstAttribute="centerX" secondItem="By0-pF-LbW" secondAttribute="centerX" id="Ld6-SK-fuH"/>
-                <constraint firstItem="YZl-SN-6Hl" firstAttribute="top" secondItem="i5M-Pr-FkT" secondAttribute="top" constant="200" id="Osf-4X-zW2"/>
+                <constraint firstItem="YZl-SN-6Hl" firstAttribute="top" secondItem="i5M-Pr-FkT" secondAttribute="top" constant="80" id="Osf-4X-zW2"/>
                 <constraint firstItem="lfh-6W-gc8" firstAttribute="top" secondItem="1GN-ME-cW2" secondAttribute="bottom" constant="30" id="WUl-sf-sUH"/>
                 <constraint firstAttribute="bottom" secondItem="zNj-J7-RXP" secondAttribute="bottom" id="WX2-PG-30h"/>
                 <constraint firstItem="EFO-Qt-iIq" firstAttribute="centerY" secondItem="1GN-ME-cW2" secondAttribute="centerY" id="Zmn-7g-wCF"/>

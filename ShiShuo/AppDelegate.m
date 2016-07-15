@@ -7,7 +7,8 @@
 //
 
 #import "AppDelegate.h"
-
+#import "SSLoginVC.h"
+#import "GuideVC.h"
 @interface AppDelegate ()
 
 @end
@@ -17,9 +18,21 @@
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
     // Override point for customization after application launch.
+    [self makeLoginWithApplication:application Options:launchOptions];
     return YES;
 }
-
+- (void)makeLoginWithApplication:(UIApplication *)appliction Options:(NSDictionary *)launchOptions{
+    if ([[[NSUserDefaults standardUserDefaults] objectForKey:@"haveLogin"] isEqualToString:@"yes"]) {
+        SSLoginVC *loginVC = [[SSLoginVC alloc] initWithNibName:NSStringFromClass([SSLoginVC class]) bundle:nil];
+        UINavigationController *navC = [[UINavigationController alloc] initWithRootViewController:loginVC];
+        self.window.rootViewController = navC;
+    }else{
+        GuideVC *guide = [[GuideVC alloc] initWithNibName:NSStringFromClass([GuideVC class]) bundle:nil];
+        self.window.rootViewController = guide;
+        [self.window makeKeyAndVisible];
+        [[NSUserDefaults standardUserDefaults] setObject:@"yes" forKey:@"haveLogin"];
+    }
+}
 - (void)applicationWillResignActive:(UIApplication *)application {
     // Sent when the application is about to move from active to inactive state. This can occur for certain types of temporary interruptions (such as an incoming phone call or SMS message) or when the user quits the application and it begins the transition to the background state.
     // Use this method to pause ongoing tasks, disable timers, and throttle down OpenGL ES frame rates. Games should use this method to pause the game.
