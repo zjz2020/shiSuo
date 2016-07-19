@@ -7,10 +7,6 @@
 //
 
 #import "ViewController.h"
-#import "CaptureStreamingViewController.h"
-#import "LCStreamingManager.h"
-#import "TestNoSkinViewController.h"
-
 static NSString *kUserId = @"userId";
 static NSString *kUserKey = @"userKey";
 static NSString *kActivityId = @"activityId";
