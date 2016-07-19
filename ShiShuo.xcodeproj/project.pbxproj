@@ -57,6 +57,7 @@
 		F9E60FF11D3EECC8000E95BC /* libstdc++.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = F9E60FF01D3EECC8000E95BC /* libstdc++.tbd */; };
 		F9E60FF31D3EECD5000E95BC /* libz.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = F9E60FF21D3EECD5000E95BC /* libz.tbd */; };
 		F9E60FF51D3EECE0000E95BC /* libiconv.2.4.0.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = F9E60FF41D3EECE0000E95BC /* libiconv.2.4.0.tbd */; };
+		F9E60FF81D3EEF1E000E95BC /* Libs in Resources */ = {isa = PBXBuildFile; fileRef = F9E60FF71D3EEF1E000E95BC /* Libs */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -126,20 +127,13 @@
 		F9E60FD11D3EE32A000E95BC /* CollectionViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = CollectionViewCell.xib; sourceTree = "<group>"; };
 		F9E60FD61D3EE75F000E95BC /* LiveVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LiveVC.h; sourceTree = "<group>"; };
 		F9E60FD71D3EE75F000E95BC /* LiveVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LiveVC.m; sourceTree = "<group>"; };
-		F9E60FDC1D3EEC81000E95BC /* CaptureStreamingViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CaptureStreamingViewController.h; sourceTree = "<group>"; };
-		F9E60FDD1D3EEC81000E95BC /* LCStreamingManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LCStreamingManager.h; sourceTree = "<group>"; };
-		F9E60FDE1D3EEC81000E95BC /* LCVidiconItem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LCVidiconItem.h; sourceTree = "<group>"; };
-		F9E60FDF1D3EEC81000E95BC /* libAFNetworking.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libAFNetworking.a; sourceTree = "<group>"; };
-		F9E60FE01D3EEC81000E95BC /* libcrypto.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libcrypto.a; sourceTree = "<group>"; };
-		F9E60FE11D3EEC81000E95BC /* libLeCloudStreaming.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libLeCloudStreaming.a; sourceTree = "<group>"; };
-		F9E60FE21D3EEC81000E95BC /* libssl.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libssl.a; sourceTree = "<group>"; };
-		F9E60FE41D3EEC81000E95BC /* LCStreamingBundle.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = LCStreamingBundle.bundle; sourceTree = "<group>"; };
 		F9E60FEA1D3EEC9F000E95BC /* CoreMedia.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreMedia.framework; path = System/Library/Frameworks/CoreMedia.framework; sourceTree = SDKROOT; };
 		F9E60FEC1D3EECAC000E95BC /* AudioToolbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AudioToolbox.framework; path = System/Library/Frameworks/AudioToolbox.framework; sourceTree = SDKROOT; };
 		F9E60FEE1D3EECB6000E95BC /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
 		F9E60FF01D3EECC8000E95BC /* libstdc++.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = "libstdc++.tbd"; path = "usr/lib/libstdc++.tbd"; sourceTree = SDKROOT; };
 		F9E60FF21D3EECD5000E95BC /* libz.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libz.tbd; path = usr/lib/libz.tbd; sourceTree = SDKROOT; };
 		F9E60FF41D3EECE0000E95BC /* libiconv.2.4.0.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libiconv.2.4.0.tbd; path = usr/lib/libiconv.2.4.0.tbd; sourceTree = SDKROOT; };
+		F9E60FF71D3EEF1E000E95BC /* Libs */ = {isa = PBXFileReference; lastKnownFileType = folder; path = Libs; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -153,10 +147,6 @@
 				F9E60FEF1D3EECB6000E95BC /* AVFoundation.framework in Frameworks */,
 				F9E60FED1D3EECAC000E95BC /* AudioToolbox.framework in Frameworks */,
 				F9E60FEB1D3EEC9F000E95BC /* CoreMedia.framework in Frameworks */,
-				F9E60FE81D3EEC81000E95BC /* libssl.a in Frameworks */,
-				F9E60FE61D3EEC81000E95BC /* libcrypto.a in Frameworks */,
-				F9E60FE71D3EEC81000E95BC /* libLeCloudStreaming.a in Frameworks */,
-				F9E60FE51D3EEC81000E95BC /* libAFNetworking.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -360,48 +350,9 @@
 		F9E60FD51D3EE650000E95BC /* 推流SDK */ = {
 			isa = PBXGroup;
 			children = (
-				F9E60FD91D3EEC81000E95BC /* Libs */,
+				F9E60FF71D3EEF1E000E95BC /* Libs */,
 			);
 			name = "推流SDK";
-			sourceTree = "<group>";
-		};
-		F9E60FD91D3EEC81000E95BC /* Libs */ = {
-			isa = PBXGroup;
-			children = (
-				F9E60FDA1D3EEC81000E95BC /* LeCloudStreaming */,
-			);
-			path = Libs;
-			sourceTree = "<group>";
-		};
-		F9E60FDA1D3EEC81000E95BC /* LeCloudStreaming */ = {
-			isa = PBXGroup;
-			children = (
-				F9E60FDB1D3EEC81000E95BC /* inc */,
-				F9E60FDF1D3EEC81000E95BC /* libAFNetworking.a */,
-				F9E60FE01D3EEC81000E95BC /* libcrypto.a */,
-				F9E60FE11D3EEC81000E95BC /* libLeCloudStreaming.a */,
-				F9E60FE21D3EEC81000E95BC /* libssl.a */,
-				F9E60FE31D3EEC81000E95BC /* res */,
-			);
-			path = LeCloudStreaming;
-			sourceTree = "<group>";
-		};
-		F9E60FDB1D3EEC81000E95BC /* inc */ = {
-			isa = PBXGroup;
-			children = (
-				F9E60FDC1D3EEC81000E95BC /* CaptureStreamingViewController.h */,
-				F9E60FDD1D3EEC81000E95BC /* LCStreamingManager.h */,
-				F9E60FDE1D3EEC81000E95BC /* LCVidiconItem.h */,
-			);
-			path = inc;
-			sourceTree = "<group>";
-		};
-		F9E60FE31D3EEC81000E95BC /* res */ = {
-			isa = PBXGroup;
-			children = (
-				F9E60FE41D3EEC81000E95BC /* LCStreamingBundle.bundle */,
-			);
-			path = res;
 			sourceTree = "<group>";
 		};
 		F9E60FF61D3EECE8000E95BC /* FrameWork */ = {
@@ -482,7 +433,7 @@
 				F919C1251D3802AD001E3983 /* LaunchScreen.storyboard in Resources */,
 				F91447751D39635400F80EA7 /* SSsubViewC.xib in Resources */,
 				F919C1331D381246001E3983 /* 22.png in Resources */,
-				F9E60FE91D3EEC81000E95BC /* LCStreamingBundle.bundle in Resources */,
+				F9E60FF81D3EEF1E000E95BC /* Libs in Resources */,
 				F9E60FD31D3EE32A000E95BC /* CollectionViewCell.xib in Resources */,
 				F919C13F1D381807001E3983 /* 960.png in Resources */,
 				F919C1571D383C56001E3983 /* GuideVC.xib in Resources */,
