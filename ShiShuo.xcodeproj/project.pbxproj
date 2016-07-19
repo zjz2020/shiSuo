@@ -43,6 +43,20 @@
 		F919C1721D385308001E3983 /* NSData+CommonCrypto.m in Sources */ = {isa = PBXBuildFile; fileRef = F919C16E1D385308001E3983 /* NSData+CommonCrypto.m */; };
 		F919C1751D385341001E3983 /* SSHelpTool.m in Sources */ = {isa = PBXBuildFile; fileRef = F919C1741D385341001E3983 /* SSHelpTool.m */; };
 		F919C1781D3857D0001E3983 /* YRJSONAdapter.m in Sources */ = {isa = PBXBuildFile; fileRef = F919C1771D3857D0001E3983 /* YRJSONAdapter.m */; };
+		F9E60FD21D3EE32A000E95BC /* CollectionViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = F9E60FD01D3EE32A000E95BC /* CollectionViewCell.m */; };
+		F9E60FD31D3EE32A000E95BC /* CollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = F9E60FD11D3EE32A000E95BC /* CollectionViewCell.xib */; };
+		F9E60FD81D3EE75F000E95BC /* LiveVC.m in Sources */ = {isa = PBXBuildFile; fileRef = F9E60FD71D3EE75F000E95BC /* LiveVC.m */; };
+		F9E60FE51D3EEC81000E95BC /* libAFNetworking.a in Frameworks */ = {isa = PBXBuildFile; fileRef = F9E60FDF1D3EEC81000E95BC /* libAFNetworking.a */; };
+		F9E60FE61D3EEC81000E95BC /* libcrypto.a in Frameworks */ = {isa = PBXBuildFile; fileRef = F9E60FE01D3EEC81000E95BC /* libcrypto.a */; };
+		F9E60FE71D3EEC81000E95BC /* libLeCloudStreaming.a in Frameworks */ = {isa = PBXBuildFile; fileRef = F9E60FE11D3EEC81000E95BC /* libLeCloudStreaming.a */; };
+		F9E60FE81D3EEC81000E95BC /* libssl.a in Frameworks */ = {isa = PBXBuildFile; fileRef = F9E60FE21D3EEC81000E95BC /* libssl.a */; };
+		F9E60FE91D3EEC81000E95BC /* LCStreamingBundle.bundle in Resources */ = {isa = PBXBuildFile; fileRef = F9E60FE41D3EEC81000E95BC /* LCStreamingBundle.bundle */; };
+		F9E60FEB1D3EEC9F000E95BC /* CoreMedia.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F9E60FEA1D3EEC9F000E95BC /* CoreMedia.framework */; };
+		F9E60FED1D3EECAC000E95BC /* AudioToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F9E60FEC1D3EECAC000E95BC /* AudioToolbox.framework */; };
+		F9E60FEF1D3EECB6000E95BC /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F9E60FEE1D3EECB6000E95BC /* AVFoundation.framework */; };
+		F9E60FF11D3EECC8000E95BC /* libstdc++.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = F9E60FF01D3EECC8000E95BC /* libstdc++.tbd */; };
+		F9E60FF31D3EECD5000E95BC /* libz.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = F9E60FF21D3EECD5000E95BC /* libz.tbd */; };
+		F9E60FF51D3EECE0000E95BC /* libiconv.2.4.0.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = F9E60FF41D3EECE0000E95BC /* libiconv.2.4.0.tbd */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -107,6 +121,25 @@
 		F919C1741D385341001E3983 /* SSHelpTool.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SSHelpTool.m; sourceTree = "<group>"; };
 		F919C1761D3857D0001E3983 /* YRJSONAdapter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YRJSONAdapter.h; sourceTree = "<group>"; };
 		F919C1771D3857D0001E3983 /* YRJSONAdapter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YRJSONAdapter.m; sourceTree = "<group>"; };
+		F9E60FCF1D3EE32A000E95BC /* CollectionViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CollectionViewCell.h; sourceTree = "<group>"; };
+		F9E60FD01D3EE32A000E95BC /* CollectionViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CollectionViewCell.m; sourceTree = "<group>"; };
+		F9E60FD11D3EE32A000E95BC /* CollectionViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = CollectionViewCell.xib; sourceTree = "<group>"; };
+		F9E60FD61D3EE75F000E95BC /* LiveVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LiveVC.h; sourceTree = "<group>"; };
+		F9E60FD71D3EE75F000E95BC /* LiveVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LiveVC.m; sourceTree = "<group>"; };
+		F9E60FDC1D3EEC81000E95BC /* CaptureStreamingViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CaptureStreamingViewController.h; sourceTree = "<group>"; };
+		F9E60FDD1D3EEC81000E95BC /* LCStreamingManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LCStreamingManager.h; sourceTree = "<group>"; };
+		F9E60FDE1D3EEC81000E95BC /* LCVidiconItem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LCVidiconItem.h; sourceTree = "<group>"; };
+		F9E60FDF1D3EEC81000E95BC /* libAFNetworking.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libAFNetworking.a; sourceTree = "<group>"; };
+		F9E60FE01D3EEC81000E95BC /* libcrypto.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libcrypto.a; sourceTree = "<group>"; };
+		F9E60FE11D3EEC81000E95BC /* libLeCloudStreaming.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libLeCloudStreaming.a; sourceTree = "<group>"; };
+		F9E60FE21D3EEC81000E95BC /* libssl.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libssl.a; sourceTree = "<group>"; };
+		F9E60FE41D3EEC81000E95BC /* LCStreamingBundle.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = LCStreamingBundle.bundle; sourceTree = "<group>"; };
+		F9E60FEA1D3EEC9F000E95BC /* CoreMedia.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreMedia.framework; path = System/Library/Frameworks/CoreMedia.framework; sourceTree = SDKROOT; };
+		F9E60FEC1D3EECAC000E95BC /* AudioToolbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AudioToolbox.framework; path = System/Library/Frameworks/AudioToolbox.framework; sourceTree = SDKROOT; };
+		F9E60FEE1D3EECB6000E95BC /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
+		F9E60FF01D3EECC8000E95BC /* libstdc++.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = "libstdc++.tbd"; path = "usr/lib/libstdc++.tbd"; sourceTree = SDKROOT; };
+		F9E60FF21D3EECD5000E95BC /* libz.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libz.tbd; path = usr/lib/libz.tbd; sourceTree = SDKROOT; };
+		F9E60FF41D3EECE0000E95BC /* libiconv.2.4.0.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libiconv.2.4.0.tbd; path = usr/lib/libiconv.2.4.0.tbd; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -114,6 +147,16 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F9E60FF51D3EECE0000E95BC /* libiconv.2.4.0.tbd in Frameworks */,
+				F9E60FF31D3EECD5000E95BC /* libz.tbd in Frameworks */,
+				F9E60FF11D3EECC8000E95BC /* libstdc++.tbd in Frameworks */,
+				F9E60FEF1D3EECB6000E95BC /* AVFoundation.framework in Frameworks */,
+				F9E60FED1D3EECAC000E95BC /* AudioToolbox.framework in Frameworks */,
+				F9E60FEB1D3EEC9F000E95BC /* CoreMedia.framework in Frameworks */,
+				F9E60FE81D3EEC81000E95BC /* libssl.a in Frameworks */,
+				F9E60FE61D3EEC81000E95BC /* libcrypto.a in Frameworks */,
+				F9E60FE71D3EEC81000E95BC /* libLeCloudStreaming.a in Frameworks */,
+				F9E60FE51D3EEC81000E95BC /* libAFNetworking.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -132,6 +175,7 @@
 		F919C1091D3802AD001E3983 = {
 			isa = PBXGroup;
 			children = (
+				F9E60FF61D3EECE8000E95BC /* FrameWork */,
 				F919C1141D3802AD001E3983 /* ShiShuo */,
 				F919C1131D3802AD001E3983 /* Products */,
 			);
@@ -197,6 +241,9 @@
 				F91447761D399B4600F80EA7 /* OpenCell.h */,
 				F91447771D399B4600F80EA7 /* OpenCell.m */,
 				F91447781D399B4600F80EA7 /* OpenCell.xib */,
+				F9E60FCF1D3EE32A000E95BC /* CollectionViewCell.h */,
+				F9E60FD01D3EE32A000E95BC /* CollectionViewCell.m */,
+				F9E60FD11D3EE32A000E95BC /* CollectionViewCell.xib */,
 			);
 			name = ViewS;
 			sourceTree = "<group>";
@@ -223,6 +270,8 @@
 		F919C1311D38094C001E3983 /* Third */ = {
 			isa = PBXGroup;
 			children = (
+				F9E60FD51D3EE650000E95BC /* 推流SDK */,
+				F9E60FD41D3EE63E000E95BC /* 播放SDK */,
 				F919C1761D3857D0001E3983 /* YRJSONAdapter.h */,
 				F919C1771D3857D0001E3983 /* YRJSONAdapter.m */,
 				F919C1661D385265001E3983 /* AES加密 */,
@@ -269,6 +318,8 @@
 				F91447711D39635400F80EA7 /* SSsubViewC.h */,
 				F91447721D39635400F80EA7 /* SSsubViewC.m */,
 				F91447731D39635400F80EA7 /* SSsubViewC.xib */,
+				F9E60FD61D3EE75F000E95BC /* LiveVC.h */,
+				F9E60FD71D3EE75F000E95BC /* LiveVC.m */,
 			);
 			name = homeVC;
 			sourceTree = "<group>";
@@ -297,6 +348,73 @@
 				F919C16E1D385308001E3983 /* NSData+CommonCrypto.m */,
 			);
 			name = "AES加密";
+			sourceTree = "<group>";
+		};
+		F9E60FD41D3EE63E000E95BC /* 播放SDK */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = "播放SDK";
+			sourceTree = "<group>";
+		};
+		F9E60FD51D3EE650000E95BC /* 推流SDK */ = {
+			isa = PBXGroup;
+			children = (
+				F9E60FD91D3EEC81000E95BC /* Libs */,
+			);
+			name = "推流SDK";
+			sourceTree = "<group>";
+		};
+		F9E60FD91D3EEC81000E95BC /* Libs */ = {
+			isa = PBXGroup;
+			children = (
+				F9E60FDA1D3EEC81000E95BC /* LeCloudStreaming */,
+			);
+			path = Libs;
+			sourceTree = "<group>";
+		};
+		F9E60FDA1D3EEC81000E95BC /* LeCloudStreaming */ = {
+			isa = PBXGroup;
+			children = (
+				F9E60FDB1D3EEC81000E95BC /* inc */,
+				F9E60FDF1D3EEC81000E95BC /* libAFNetworking.a */,
+				F9E60FE01D3EEC81000E95BC /* libcrypto.a */,
+				F9E60FE11D3EEC81000E95BC /* libLeCloudStreaming.a */,
+				F9E60FE21D3EEC81000E95BC /* libssl.a */,
+				F9E60FE31D3EEC81000E95BC /* res */,
+			);
+			path = LeCloudStreaming;
+			sourceTree = "<group>";
+		};
+		F9E60FDB1D3EEC81000E95BC /* inc */ = {
+			isa = PBXGroup;
+			children = (
+				F9E60FDC1D3EEC81000E95BC /* CaptureStreamingViewController.h */,
+				F9E60FDD1D3EEC81000E95BC /* LCStreamingManager.h */,
+				F9E60FDE1D3EEC81000E95BC /* LCVidiconItem.h */,
+			);
+			path = inc;
+			sourceTree = "<group>";
+		};
+		F9E60FE31D3EEC81000E95BC /* res */ = {
+			isa = PBXGroup;
+			children = (
+				F9E60FE41D3EEC81000E95BC /* LCStreamingBundle.bundle */,
+			);
+			path = res;
+			sourceTree = "<group>";
+		};
+		F9E60FF61D3EECE8000E95BC /* FrameWork */ = {
+			isa = PBXGroup;
+			children = (
+				F9E60FF41D3EECE0000E95BC /* libiconv.2.4.0.tbd */,
+				F9E60FF21D3EECD5000E95BC /* libz.tbd */,
+				F9E60FF01D3EECC8000E95BC /* libstdc++.tbd */,
+				F9E60FEE1D3EECB6000E95BC /* AVFoundation.framework */,
+				F9E60FEC1D3EECAC000E95BC /* AudioToolbox.framework */,
+				F9E60FEA1D3EEC9F000E95BC /* CoreMedia.framework */,
+			);
+			name = FrameWork;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -364,6 +482,8 @@
 				F919C1251D3802AD001E3983 /* LaunchScreen.storyboard in Resources */,
 				F91447751D39635400F80EA7 /* SSsubViewC.xib in Resources */,
 				F919C1331D381246001E3983 /* 22.png in Resources */,
+				F9E60FE91D3EEC81000E95BC /* LCStreamingBundle.bundle in Resources */,
+				F9E60FD31D3EE32A000E95BC /* CollectionViewCell.xib in Resources */,
 				F919C13F1D381807001E3983 /* 960.png in Resources */,
 				F919C1571D383C56001E3983 /* GuideVC.xib in Resources */,
 				F919C1221D3802AD001E3983 /* Assets.xcassets in Resources */,
@@ -385,6 +505,7 @@
 				F919C11A1D3802AD001E3983 /* AppDelegate.m in Sources */,
 				F919C1711D385308001E3983 /* NSString+Base64.m in Sources */,
 				F919C13B1D3815D5001E3983 /* SSLoginVC.m in Sources */,
+				F9E60FD21D3EE32A000E95BC /* CollectionViewCell.m in Sources */,
 				F919C1721D385308001E3983 /* NSData+CommonCrypto.m in Sources */,
 				F91447741D39635400F80EA7 /* SSsubViewC.m in Sources */,
 				F919C1431D3831B2001E3983 /* SSRgisterVC.m in Sources */,
@@ -396,6 +517,7 @@
 				F919C1781D3857D0001E3983 /* YRJSONAdapter.m in Sources */,
 				F919C14C1D383A9E001E3983 /* MineVC.m in Sources */,
 				F919C1521D383B93001E3983 /* SSBarVC.m in Sources */,
+				F9E60FD81D3EE75F000E95BC /* LiveVC.m in Sources */,
 				F919C1171D3802AD001E3983 /* main.m in Sources */,
 				F919C15E1D385088001E3983 /* SSModel.m in Sources */,
 				F919C1631D385163001E3983 /* Reachability.m in Sources */,
@@ -512,11 +634,17 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = "Brand Assets";
+				ENABLE_BITCODE = NO;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "$(SRCROOT)/ShiShuo/PrefixHeader.pch";
 				INFOPLIST_FILE = ShiShuo/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/ShiShuo/Libs/LeCloudStreaming",
+				);
+				OTHER_LDFLAGS = "-all_load";
 				PRODUCT_BUNDLE_IDENTIFIER = Cloud.ShiShuo;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
@@ -527,11 +655,17 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = "Brand Assets";
+				ENABLE_BITCODE = NO;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "$(SRCROOT)/ShiShuo/PrefixHeader.pch";
 				INFOPLIST_FILE = ShiShuo/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/ShiShuo/Libs/LeCloudStreaming",
+				);
+				OTHER_LDFLAGS = "-all_load";
 				PRODUCT_BUNDLE_IDENTIFIER = Cloud.ShiShuo;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
