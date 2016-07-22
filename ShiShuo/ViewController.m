@@ -7,6 +7,7 @@
 //
 
 #import "ViewController.h"
+#import "CaptureStreamingViewController.h"
 static NSString *kUserId = @"userId";
 static NSString *kUserKey = @"userKey";
 static NSString *kActivityId = @"activityId";

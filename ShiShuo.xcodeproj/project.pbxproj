@@ -52,7 +52,6 @@
 		F9E60FE81D3EEC81000E95BC /* libssl.a in Frameworks */ = {isa = PBXBuildFile; fileRef = F9E60FE21D3EEC81000E95BC /* libssl.a */; };
 		F9E60FE91D3EEC81000E95BC /* LCStreamingBundle.bundle in Resources */ = {isa = PBXBuildFile; fileRef = F9E60FE41D3EEC81000E95BC /* LCStreamingBundle.bundle */; };
 		F9E60FEB1D3EEC9F000E95BC /* CoreMedia.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F9E60FEA1D3EEC9F000E95BC /* CoreMedia.framework */; };
-		F9E60FED1D3EECAC000E95BC /* AudioToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F9E60FEC1D3EECAC000E95BC /* AudioToolbox.framework */; };
 		F9E60FEF1D3EECB6000E95BC /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F9E60FEE1D3EECB6000E95BC /* AVFoundation.framework */; };
 		F9E60FF11D3EECC8000E95BC /* libstdc++.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = F9E60FF01D3EECC8000E95BC /* libstdc++.tbd */; };
 		F9E60FF31D3EECD5000E95BC /* libz.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = F9E60FF21D3EECD5000E95BC /* libz.tbd */; };
@@ -350,7 +349,7 @@
 		F9E60FD51D3EE650000E95BC /* 推流SDK */ = {
 			isa = PBXGroup;
 			children = (
-				F9E60FF71D3EEF1E000E95BC /* Libs */,
+				F9BAF38B1D42D30900FBB0A3 /* Libs */,
 			);
 			name = "推流SDK";
 			sourceTree = "<group>";
@@ -358,6 +357,7 @@
 		F9E60FF61D3EECE8000E95BC /* FrameWork */ = {
 			isa = PBXGroup;
 			children = (
+				F9BAF3891D42D2C900FBB0A3 /* VideoToolbox.framework */,
 				F9E60FF41D3EECE0000E95BC /* libiconv.2.4.0.tbd */,
 				F9E60FF21D3EECD5000E95BC /* libz.tbd */,
 				F9E60FF01D3EECC8000E95BC /* libstdc++.tbd */,
@@ -586,6 +586,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = "Brand Assets";
 				ENABLE_BITCODE = NO;
+				FRAMEWORK_SEARCH_PATHS = "";
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "$(SRCROOT)/ShiShuo/PrefixHeader.pch";
 				INFOPLIST_FILE = ShiShuo/Info.plist;
